@@ -2,9 +2,9 @@
 Extension repository. MajSoul SFW
 
 simple redirect/block logic to prevent large character arts from being loaded <br>
-everything else works as intended, incluing all small arts from portraits etc...
+everything else works as intended, incluing all small arts from portraits, voice lines etc...
 
-- only works for browser version
+- only for browser version
 - now you can play majsoul during work hours
 
 ![image](https://github.com/carekovisk/majsoul-sfw/assets/87438495/a1a435cf-d9b5-4281-b2ff-b879eda2492e)
