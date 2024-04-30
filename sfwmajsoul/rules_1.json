@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/charactor/*/full.png"
+    }
+  },
+  {
+    "id" : 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "url": "https://mahjongsoul.game.yo-star.com/v0.11.14.w/en/extendRes/charactor/default_girl/waitingroom.png" }
+    },
+    "condition": {
+      "urlFilter": "*/charactor/*/waitingroom.png"
+    }
+  }
+]

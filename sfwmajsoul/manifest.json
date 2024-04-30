@@ -1,0 +1,24 @@
+{
+  "name": "MajSoul SFW",
+  "version": "1",
+  "manifest_version": 3,
+  "description": "MajSoul SFW",
+  "background": {
+    "scripts": "service_worker.js"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules_1.json"
+      }
+    ]
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": ["https://mahjongsoul.game.yo-star.com/*"]
+}
